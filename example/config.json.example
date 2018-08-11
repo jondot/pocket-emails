@@ -1,0 +1,19 @@
+{
+    "template": "digest",
+    "pocket": {
+        "consumer_key": "xxx",
+        "access_token": "xxx",
+        "archive": true
+    },
+    "mailgun": {
+        "domain": "sandbox-XXX.mailgun.org",
+        "api_key": "xxx",
+        "message": {
+            "from": "Bruce Wayne <bruce@example.com>",
+            "to": "joker@example.com",
+            "o:tracking-clicks": "yes"
+        },
+        "send": true,
+        "preview": false
+    }
+}
