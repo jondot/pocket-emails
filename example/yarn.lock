@@ -1491,8 +1491,9 @@ pocket-auth@^1.2.0:
     call-me-maybe "^1.0.1"
     r2 "^2.0.0"
 
-pocket-emails@../:
-  version "1.0.0"
+pocket-emails@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/pocket-emails/-/pocket-emails-1.0.1.tgz#ef96062b6b911e336f8053d18ed4a0f3784a1095"
   dependencies:
     chalk "^2.3.0"
     consola "^1.4.1"
