@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pocket-emails": "../"
+  },
+  "scripts": {
+    "auth": "yarn pocket-emails-auth",
+    "send": "yarn pocket-emails"
+  }
+}

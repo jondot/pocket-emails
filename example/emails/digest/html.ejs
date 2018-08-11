@@ -1,0 +1,10 @@
+<% items.forEach(item => { %>
+    <h3>
+        <a href="<%= item.resolved_url %>">
+            <%= item.resolved_title %>
+        </a>
+    </h3>
+    <p>
+        <%= item.excerpt %>
+    </p>
+<% }) %>
